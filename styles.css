@@ -5,9 +5,12 @@
 }
 
 body {
+    display: flex;
     font-family: Arial, sans-serif;
     background: #f0f0f0;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 /* GRID-контейнер для всей страницы */
@@ -23,13 +26,19 @@ body {
 .header {
     background: #ddd;
     padding: 10px;
+    grid-column: 1/4;
+    grid-row: 1;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Боковое меню чатов */
 .chat-list {
     background: #f4f4f4;
     padding: 10px;
+    grid-column: 1;
+    grid-row:2/4 ;
 }
 
 /* Главное окно чата */
@@ -64,6 +73,7 @@ body {
     background: #ddd;
     padding: 10px;
     text-align: center;
+    grid-row: 4;    grid-column: 1/4;
 }
 
 ul {
