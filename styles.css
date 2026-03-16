@@ -85,7 +85,8 @@ body {
     background: #ddd;
     padding: 10px;
     text-align: center;
-    grid-row: 4;    grid-column: 1/4;
+    grid-row: 4;    
+    grid-column: 1/4;
 }
 
 ul {
