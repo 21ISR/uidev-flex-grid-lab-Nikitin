@@ -43,6 +43,8 @@ body {
 
 /* Главное окно чата */
 .chat-window {
+    display: flex;
+    flex-direction: column;
     background: #fff;
     padding: 10px;
     grid-row: 2/4;
@@ -85,7 +87,7 @@ body {
     background: #ddd;
     padding: 10px;
     text-align: center;
-    grid-row: 4;    
+    grid-row: 4;
     grid-column: 1/4;
 }
 
